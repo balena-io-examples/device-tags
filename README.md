@@ -14,13 +14,8 @@ Check out the instructions in the [resin.io simple-server-node repository][simpl
 
 ### Authentication
 
-The scripts will check whether the [`USER_API_KEY` environment variable][environment-variables] is defined and use it to authenticate all requests. In case that this isn't provided, then they will fallback using the [`RESIN_API_KEY` environment variable][container-environment] which is injected to the environment of all resin.io applications.
-
-You can find more information on how to generate user API Keys [here][resin-user-api-keys].
-
+The scripts use the [`RESIN_API_KEY` environment variable][container-environment], which is injected to the environment of all resin.io applications, to authenticate all requests.
 
 [simple-server-node]:https://github.com/resin-io-projects/simple-server-node
 [resin-sdk]:https://github.com/resin-io/resin-sdk/
-[resin-user-api-keys]:https://forums.resin.io/t/auth-token-without-expiration-to-use-api/302/25?u=thgreasi
 [container-environment]:https://docs.resin.io/runtime/runtime/#the-container-environment
-[environment-variables]:https://docs.resin.io/management/env-vars/#environment-variables

@@ -18,14 +18,10 @@ app.get('/', function (req, res) {
 
 //start a server on port 80 and log its start to our console
 var server = app.listen(80, function () {
-  if (process.env.USER_API_KEY) {
-    sdk = ResinSdk();
-    sdk.auth.loginWithToken(process.env.USER_API_KEY);
-    console.log('Initialized sdk with $USER_API_KEY env var');
-  } else {
-    sdk = ResinSdk({ apiKey: process.env.RESIN_API_KEY });
-    console.log('Initialized sdk with $RESIN_API_KEY container env var');
-  }
+
+  sdk = ResinSdk();
+  sdk.auth.logout();
+  sdk.auth.loginWithToken(process.env.RESIN_API_KEY);
 
   var port = server.address().port;
   console.log('Example app listening on port ', port);
