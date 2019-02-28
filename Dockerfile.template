@@ -11,7 +11,7 @@ FROM resin/%%RESIN_MACHINE_NAME%%-node:6-slim
 #    apt-get clean && rm -rf /var/lib/apt/lists/*
 
 RUN apt-get update && apt-get install -yq \
-    curl jq
+    curl jq git
 
 # Defines our working directory in container
 WORKDIR /usr/src/app

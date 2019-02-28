@@ -1,6 +1,6 @@
 var express = require('express');
 var app = express();
-var ResinSdk = require('resin-sdk');
+var SdkInstanceFactory = require('balena-sdk');
 var sdk;
 
 // reply to request with "Hello World!"
@@ -19,7 +19,7 @@ app.get('/', function (req, res) {
 //start a server on port 80 and log its start to our console
 var server = app.listen(80, function () {
 
-  sdk = ResinSdk();
+  sdk = SdkInstanceFactory();
   sdk.auth.logout();
   sdk.auth.loginWithToken(process.env.RESIN_API_KEY);
 

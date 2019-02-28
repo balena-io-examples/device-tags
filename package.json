@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/resin-io-playground/staged-releases#readme",
   "dependencies": {
-    "express": "*",
-    "resin-sdk": "^8.1.0"
+    "balena-sdk": "^11.7.0",
+    "express": "*"
   }
 }
