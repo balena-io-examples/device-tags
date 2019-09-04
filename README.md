@@ -1,6 +1,6 @@
 ## Using the balena API & SDK to set device tags from within apps.
 
-This is a simple project based on the [balena simple-server-node repository][simple-server-node] that demonstrates how to set device tags from within your application.
+This is a simple project which runs one container based on the [balena simple-server-node repository][simple-server-node] that demonstrates how to set device tags from within your application.
 
 This project serves up `"Hello World!"` on port `:80` of your balena device and additionally:
 * sets the `stats.laststart` tag with the current timestamp when the application starts.
