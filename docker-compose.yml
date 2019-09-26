@@ -1,0 +1,8 @@
+version: '2'
+services:
+  main:
+    build: ./main
+    labels:
+      io.balena.features.balena-api: 1
+    expose:
+      - "80"

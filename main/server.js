@@ -8,7 +8,7 @@ app.get('/', function (req, res) {
   if (sdk) {
     // set the 'stats.lastrequest' tag but w/o blocking the response
     sdk.models.device.tags
-      .set(process.env.RESIN_DEVICE_UUID, 'stats.lastrequest', Date.now())
+      .set(process.env.BALENA_DEVICE_UUID, 'stats.lastrequest', Date.now())
       .catch(function(e) {
         console.error('Error while setting stats.lastrequest tag', e);
       });
@@ -21,7 +21,7 @@ var server = app.listen(80, function () {
 
   sdk = SdkInstanceFactory();
   sdk.auth.logout();
-  sdk.auth.loginWithToken(process.env.RESIN_API_KEY);
+  sdk.auth.loginWithToken(process.env.BALENA_API_KEY);
 
   var port = server.address().port;
   console.log('Example app listening on port ', port);

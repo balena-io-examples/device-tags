@@ -1,7 +1,7 @@
 {
   "name": "device-tags",
-  "version": "1.0.0",
-  "description": "Using the resin.io API & SDK to set device tags from within apps.",
+  "version": "2.0.0",
+  "description": "Using the balena API & SDK to set device tags from within apps.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,24 +9,24 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/resin-io-playground/staged-releases.git"
+    "url": "git+https://github.com/balena-io-playground/staged-releases.git"
   },
   "keywords": [
-    "resin.io",
+    "balena.io",
     "webserver",
     "nodejs",
     "expressjs",
     "curl",
-    "resin-sdk",
+    "balena-sdk",
     "api keys",
     "device tags"
   ],
-  "author": "Thodoris Greasidis <thodoris@resin.io>",
+  "author": "Thodoris Greasidis <thodoris@balena.io>",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/resin-io-playground/staged-releases/issues"
+    "url": "https://github.com/balena-io-playground/staged-releases/issues"
   },
-  "homepage": "https://github.com/resin-io-playground/staged-releases#readme",
+  "homepage": "https://github.com/balena-io-playground/staged-releases#readme",
   "dependencies": {
     "balena-sdk": "^11.7.0",
     "express": "*"
