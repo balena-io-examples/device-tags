@@ -23,6 +23,8 @@ var server = app.listen(80, function () {
   sdk.auth.logout();
   sdk.auth.loginWithToken(process.env.BALENA_API_KEY);
 
+  sdk.models.device.tags.set(process.env.BALENA_DEVICE_UUID, 'stats.lastserverstart', Date.now());
+
   var port = server.address().port;
   console.log('Example app listening on port ', port);
 
