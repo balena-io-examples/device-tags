@@ -29,6 +29,6 @@
   "homepage": "https://github.com/balena-io-playground/staged-releases#readme",
   "dependencies": {
     "balena-sdk": "^13.0.0",
-    "express": "*"
+    "express": "^4.16.4"
   }
 }
