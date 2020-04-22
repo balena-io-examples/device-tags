@@ -4,5 +4,5 @@ services:
     build: ./main
     labels:
       io.balena.features.balena-api: 1
-    expose:
-      - "80"
+    ports:
+      - 80:80
