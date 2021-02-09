@@ -26,9 +26,9 @@ const server = app.listen(80, async function () {
   try {
     await sdk.auth.logout();
     await sdk.auth.loginWithToken(process.env.BALENA_API_KEY);
-    await sdk.models.device.tags.set(process.env.BALENA_DEVICE_UUID, 'stats.lastserverstart', Date.now());
+    await sdk.models.device.tags.set(process.env.BALENA_DEVICE_UUID, 'stats.last_server_start', Date.now());
   } catch (err) {
-    console.error('Error while setting stats.lastserverstart tag', err);
+    console.error('Error while setting stats.last_server_start tag', err);
   }
 
   const port = server.address().port;
