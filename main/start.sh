@@ -1,4 +1,4 @@
 echo "setting 'stats.laststart' tag"
-sh tags_api/set-device-tag.sh "stats.laststart" $(date +%s)
+sh curl_tags_api/set-device-tag.sh "stats.last_application_start" $(date +%s)
 echo "starting application"
 npm start
