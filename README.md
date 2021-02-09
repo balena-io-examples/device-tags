@@ -14,7 +14,7 @@ Check out the instructions in the [balena simple-server-node repository][simple-
 
 ### Authentication
 
-The scripts use the [`RESIN_API_KEY` environment variable][container-environment], which is injected to the environment of all balena applications, to authenticate all requests.
+The scripts use the [`BALENA_API_KEY` environment variable][container-environment], which is injected to the environment of all balena applications, to authenticate all requests.
 
 [simple-server-node]:https://github.com/balena-io-projects/simple-server-node
 [balena-sdk]:https://github.com/balena-io/balena-sdk/
