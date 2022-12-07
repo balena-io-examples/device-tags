@@ -1,4 +1,33 @@
 - commits:
+    - subject: Bump moment from 2.29.2 to 2.29.4 in /main
+      hash: ace6482f13876df434d1a612dd6b40654ff07054
+      body: >
+        Bumps [moment](https://github.com/moment/moment) from 2.29.2 to 2.29.4.
+
+        - [Release notes](https://github.com/moment/moment/releases)
+
+        - [Changelog](https://github.com/moment/moment/blob/develop/CHANGELOG.md)
+
+        - [Commits](https://github.com/moment/moment/compare/2.29.2...2.29.4)
+
+
+        ---
+
+        updated-dependencies:
+
+        - dependency-name: moment
+          dependency-type: indirect
+        ...
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: dependabot[bot] <support@github.com>
+        signed-off-by: dependabot[bot] <support@github.com>
+      author: dependabot[bot]
+  version: 1.0.7
+  title: ""
+  date: 2022-12-07T07:59:44.633Z
+- commits:
     - subject: Bump qs and express in /main
       hash: 9aa930d0e79fc5f4d35bab9f2d939540a03ed288
       body: >
