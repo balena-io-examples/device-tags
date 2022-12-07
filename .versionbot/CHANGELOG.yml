@@ -1,0 +1,383 @@
+- commits:
+    - subject: Replace balenaCI with flowzone
+      hash: 0d6d9374ce5da2ed10aef4e0a8796accb678cd4c
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Thodoris Greasidis
+  version: 1.0.5
+  title: ""
+  date: 2022-12-07T07:37:29.431Z
+- version: 1.0.4
+  date: 2022-04-09T06:45:43Z
+  commits:
+    - hash: 4cc8378724490fb8981e46108eaeee8e86bb4de4
+      author: Thodoris Greasidis
+      footers:
+        change-type: patch
+        signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+      subject: Fix dependabot configuration
+      body: null
+- version: 1.0.3
+- date: 2022-04-09T06:38:03Z
+- commits:
+    - hash: 2b6b258752c3dc0258b04fb3307f40a64d5ad16f
+- commits:
+    - author: dependabot[bot]
+- commits:
+    - subject: "patch: Bump moment from 2.29.1 to 2.29.2 in /main"
+- commits:
+    - body: >-
+        Bumps [moment](https://github.com/moment/moment) from 2.29.1 to 2.29.2.
+
+        - [Release notes](https://github.com/moment/moment/releases)
+
+        - [Changelog](https://github.com/moment/moment/blob/develop/CHANGELOG.md)
+
+        - [Commits](https://github.com/moment/moment/compare/2.29.1...2.29.2)
+
+        ---
+
+        updated-dependencies:
+
+        - dependency-name: moment
+
+        dependency-type: indirect
+
+        ...
+
+        Signed-off-by: dependabot[bot] <support@github.com>
+- version: 1.0.2
+- date: 2022-03-29T20:52:34Z
+- commits:
+    - hash: 5332a9cde7af80278857a8a2dc119ce501040a5d
+- commits:
+    - author: dependabot[bot]
+- commits:
+    - subject: "patch: Bump node-fetch from 2.6.1 to 2.6.7 in /main"
+- commits:
+    - body: >-
+        Bumps [node-fetch](https://github.com/node-fetch/node-fetch) from 2.6.1 to
+        2.6.7.
+
+        - [Release notes](https://github.com/node-fetch/node-fetch/releases)
+
+        - [Commits](https://github.com/node-fetch/node-fetch/compare/v2.6.1...v2.6.7)
+
+        ---
+
+        updated-dependencies:
+
+        - dependency-name: node-fetch
+
+        dependency-type: indirect
+
+        ...
+
+        Signed-off-by: dependabot[bot] <support@github.com>
+- version: 1.0.1
+- date: 2022-03-29T18:53:32Z
+- commits:
+    - hash: d41fd256ac347ec1ad3bf91aa9d85e960b0cc946
+- commits:
+    - author: dependabot[bot]
+- commits:
+    - subject: "patch: Bump minimist from 1.2.5 to 1.2.6 in /main"
+- commits:
+    - body: >-
+        Bumps [minimist](https://github.com/substack/minimist) from 1.2.5 to
+        1.2.6.
+
+        - [Release notes](https://github.com/substack/minimist/releases)
+
+        - [Commits](https://github.com/substack/minimist/compare/1.2.5...1.2.6)
+
+        ---
+
+        updated-dependencies:
+
+        - dependency-name: minimist
+
+        dependency-type: indirect
+
+        ...
+
+        Signed-off-by: dependabot[bot] <support@github.com>
+- version: 1.0.0
+- date: 2022-03-29T18:46:19Z
+- commits:
+    - hash: 39e98df31b71fd2eb7108bbaa25a3ee28e611d38
+- commits:
+    - author: Thodoris Greasidis
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - footers:
+        signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+- commits:
+    - subject: Setup the repo for versiobot
+- commits:
+    - body: null
+- commits:
+    - hash: 5d502669f95b2d2471dc2c5265ec39a574961a35
+- commits:
+    - author: Thodoris Greasidis
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: Add dependabot configuration
+- commits:
+    - body: null
+- commits:
+    - hash: 60f4a481a43bb266ca088b9356a2ff86557352dc
+- commits:
+    - author: dependabot[bot]
+- commits:
+    - footers:
+        signed-off-by: dependabot[bot] <support@github.com>
+- commits:
+    - subject: "patch: Bump lodash from 4.17.20 to 4.17.21 in /main"
+- commits:
+    - body: >-
+        Bumps [lodash](https://github.com/lodash/lodash) from 4.17.20 to 4.17.21.
+
+        - [Release notes](https://github.com/lodash/lodash/releases)
+
+        - [Commits](https://github.com/lodash/lodash/compare/4.17.20...4.17.21)
+- commits:
+    - hash: 876f116040d257bf6aed2f5eb82464c6a75a80e5
+- commits:
+    - author: Thodoris Greasidis
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: "README: Fix left over RESIN in env var name"
+- commits:
+    - body: null
+- commits:
+    - hash: c8bd61376ab218e0cc134d3e565199d8cc322b55
+- commits:
+    - author: Thodoris Greasidis
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: Rename the curl examples folder to be clear what it is
+- commits:
+    - body: null
+- commits:
+    - hash: 78baa4313808bfe0a6c63a5b91c8e5632f7c4038
+- commits:
+    - author: Thodoris Greasidis
+- commits:
+    - footers:
+        change-type: major
+- commits:
+    - subject: Update balena-sdk to v15
+- commits:
+    - body: null
+- commits:
+    - hash: 4f71f39868bf634fa53b39ef6275ac7375ae6889
+- commits:
+    - author: Thodoris Greasidis
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: "server.js: Refactor the setup to use async await"
+- commits:
+    - body: null
+- commits:
+    - hash: 78a498745f69b4e20c6388a8f7cd75e3ac76bb13
+- commits:
+    - author: Thodoris Greasidis
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: Replace the tag names used with more readable ones
+- commits:
+    - body: null
+- commits:
+    - hash: d1f3a7e39704686ec20c96513bb67a41b10057a1
+- commits:
+    - author: dependabot[bot]
+- commits:
+    - footers:
+        signed-off-by: dependabot[bot] <support@github.com>
+- commits:
+    - subject: "patch: Bump lodash from 4.17.15 to 4.17.19 in /main"
+- commits:
+    - body: >-
+        Bumps [lodash](https://github.com/lodash/lodash) from 4.17.15 to 4.17.19.
+
+        - [Release notes](https://github.com/lodash/lodash/releases)
+
+        - [Commits](https://github.com/lodash/lodash/compare/4.17.15...4.17.19)
+- commits:
+    - hash: 0fbb56967819408a98c7e1f5546ba9e3ec42302c
+- commits:
+    - author: Thodoris Greasidis
+- commits:
+    - footers:
+        change-type: minor
+- commits:
+    - subject: Add an extra lastserverstart tag when express gets initialized
+- commits:
+    - body: null
+- commits:
+    - hash: 485dac5b464269074c59b632212f62d95fbfe8c2
+- commits:
+    - author: Thodoris Greasidis
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: Fix the public device url
+- commits:
+    - body: null
+- commits:
+    - hash: 4f9989931a7da78bfcc28fec9cd44993c1a2d78c
+- commits:
+    - author: Thodoris Greasidis
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: Update balena-sdk to v13
+- commits:
+    - body: null
+- commits:
+    - hash: 218afa2869c3d94465b0b9702fbf58f50ccf7f46
+- commits:
+    - author: Thodoris Greasidis
+- commits:
+    - footers:
+        change-type: patch
+- commits:
+    - subject: Replace express * dependency to v4
+- commits:
+    - body: null
+- commits:
+    - hash: 55f4165625eaa108f3bcc2f533ce79fab8a9b806
+- commits:
+    - author: Thodoris Greasidis
+- commits:
+    - subject: Add support for mixed fleets
+- commits:
+    - body: Use BALENA_ARCH instead of device type
+- commits:
+    - hash: 542e887e268a92d8191ed7d3e848eee6be03a8d1
+- commits:
+    - author: dependabot[bot]
+- commits:
+    - footers:
+        signed-off-by: dependabot[bot] <support@github.com>
+- commits:
+    - subject: Bump minimist from 1.2.0 to 1.2.5 in /main
+- commits:
+    - body: >-
+        Bumps [minimist](https://github.com/substack/minimist) from 1.2.0 to
+        1.2.5.
+
+        - [Release notes](https://github.com/substack/minimist/releases)
+
+        - [Commits](https://github.com/substack/minimist/compare/1.2.0...1.2.5)
+- commits:
+    - hash: 661d96905c74c26e333a435ee849fb391f0282a1
+- commits:
+    - author: dependabot[bot]
+- commits:
+    - footers:
+        signed-off-by: dependabot[bot] <support@github.com>
+- commits:
+    - subject: Bump js-yaml from 3.12.2 to 3.13.1 in /main
+- commits:
+    - body: >-
+        Bumps [js-yaml](https://github.com/nodeca/js-yaml) from 3.12.2 to 3.13.1.
+
+        - [Release notes](https://github.com/nodeca/js-yaml/releases)
+
+        - [Changelog](https://github.com/nodeca/js-yaml/blob/master/CHANGELOG.md)
+
+        - [Commits](https://github.com/nodeca/js-yaml/compare/3.12.2...3.13.1)
+- commits:
+    - hash: 19ee14e8109e2c0d27de02ae73e0429d2a4ff707
+- commits:
+    - author: dependabot[bot]
+- commits:
+    - footers:
+        signed-off-by: dependabot[bot] <support@github.com>
+- commits:
+    - subject: Bump lodash from 4.17.11 to 4.17.15 in /main
+- commits:
+    - body: >-
+        Bumps [lodash](https://github.com/lodash/lodash) from 4.17.11 to 4.17.15.
+
+        - [Release notes](https://github.com/lodash/lodash/releases)
+
+        - [Commits](https://github.com/lodash/lodash/compare/4.17.11...4.17.15)
+- commits:
+    - hash: 22b26ac059b7239f0c031e93900c3d1033ff27ac
+- commits:
+    - author: dt-rush
+- commits:
+    - footers:
+        change-type: major
+- commits:
+    - footers:
+        signed-off-by: dt-rush <nickp@balena.io>
+- commits:
+    - subject: update project to modern conventions
+- commits:
+    - body: null
+- commits:
+    - hash: 26126701b0250776b02d6fcff11f53cdf31e5be0
+- commits:
+    - author: Thodoris Greasidis
+- commits:
+    - footers:
+        change-type: major
+- commits:
+    - footers:
+        signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+- commits:
+    - subject: Update to balena-sdk & rename everything
+- commits:
+    - body: null
+- commits:
+    - hash: 0d79e4f4439ec1331d6115aaf644d18a0e8eaa2f
+- commits:
+    - author: Thodoris Greasidis
+- commits:
+    - subject: Update README
+- commits:
+    - body: null
+- commits:
+    - hash: 792d321c912a2e6036502cc9a503d4cc994fd043
+- commits:
+    - author: Thodoris Greasidis
+- commits:
+    - subject: Add curl tag scripts
+- commits:
+    - body: null
+- commits:
+    - hash: 27c047e169533a6107fb601ace4993ee148c9439
+- commits:
+    - author: Thodoris Greasidis
+- commits:
+    - subject: Add SDK tag scripts
+- commits:
+    - body: null
+- commits:
+    - hash: e441612e1de28edb9d407c20a567b7cdce7b704a
+- commits:
+    - author: Thodoris Greasidis
+- commits:
+    - subject: remove user api keys
+- commits:
+    - body: null
