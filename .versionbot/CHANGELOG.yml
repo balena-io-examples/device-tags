@@ -1,4 +1,50 @@
 - commits:
+    - subject: Bump qs and express in /main
+      hash: 9aa930d0e79fc5f4d35bab9f2d939540a03ed288
+      body: >
+        Bumps [qs](https://github.com/ljharb/qs) to 6.11.0 and updates ancestor
+        dependency [express](https://github.com/expressjs/express). These
+        dependencies need to be updated together.
+
+
+
+        Updates `qs` from 6.9.6 to 6.11.0
+
+        - [Release notes](https://github.com/ljharb/qs/releases)
+
+        - [Changelog](https://github.com/ljharb/qs/blob/main/CHANGELOG.md)
+
+        - [Commits](https://github.com/ljharb/qs/compare/v6.9.6...v6.11.0)
+
+
+        Updates `express` from 4.17.1 to 4.18.2
+
+        - [Release notes](https://github.com/expressjs/express/releases)
+
+        - [Changelog](https://github.com/expressjs/express/blob/master/History.md)
+
+        - [Commits](https://github.com/expressjs/express/compare/4.17.1...4.18.2)
+
+
+        ---
+
+        updated-dependencies:
+
+        - dependency-name: qs
+          dependency-type: indirect
+        - dependency-name: express
+          dependency-type: direct:production
+        ...
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: dependabot[bot] <support@github.com>
+        signed-off-by: dependabot[bot] <support@github.com>
+      author: dependabot[bot]
+  version: 1.0.6
+  title: ""
+  date: 2022-12-07T07:56:37.097Z
+- commits:
     - subject: Replace balenaCI with flowzone
       hash: 0d6d9374ce5da2ed10aef4e0a8796accb678cd4c
       body: ""
