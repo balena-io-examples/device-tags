@@ -1,4 +1,15 @@
 - commits:
+    - subject: Add .dockerignore
+      hash: b22455a5799688c91fe193864bba821f58877fb0
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Thodoris Greasidis
+  version: 1.0.8
+  title: ""
+  date: 2023-04-14T07:38:55.391Z
+- commits:
     - subject: Bump moment from 2.29.2 to 2.29.4 in /main
       hash: ace6482f13876df434d1a612dd6b40654ff07054
       body: >
