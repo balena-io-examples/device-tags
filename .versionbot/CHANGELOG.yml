@@ -1,4 +1,15 @@
 - commits:
+    - subject: Update flowzone configuration
+      hash: 4102494b6fcd716a5586c290b50616b98848d73b
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Thodoris Greasidis
+  version: 1.0.9
+  title: ""
+  date: 2023-04-14T07:42:28.102Z
+- commits:
     - subject: Add .dockerignore
       hash: b22455a5799688c91fe193864bba821f58877fb0
       body: ""
