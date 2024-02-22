@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/balena-io-playground/staged-releases#readme",
   "dependencies": {
-    "balena-sdk": "^15.0.0",
+    "balena-sdk": "^19.3.5",
     "express": "^4.18.2"
   }
 }
