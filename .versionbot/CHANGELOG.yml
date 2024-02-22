@@ -1,4 +1,43 @@
 - commits:
+    - subject: Add a balena.yml file
+      hash: 3c9b400b141913a4573566c941bca23483a5472d
+      body: ""
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Thodoris Greasidis
+    - subject: Update the device tag curl examples to the v6 model
+      hash: f74db93b5b83a7549c1c8a0303175f32c84172d4
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Thodoris Greasidis
+    - subject: Update balena-sdk to 19.3.5
+      hash: 51c971215b351b026babe67ba82339c2623ef3dd
+      body: ""
+      footer:
+        Change-type: major
+        change-type: major
+      author: Thodoris Greasidis
+    - subject: Update the base image to debian-node:18-bookworm
+      hash: 5335bf11a982765cc9a40ff5af5679c15a876d12
+      body: ""
+      footer:
+        Change-type: major
+        change-type: major
+      author: Thodoris Greasidis
+    - subject: Rename the service to device_tags
+      hash: 86cb15981fdadecab2111bc847ff6b78073978d6
+      body: ""
+      footer:
+        Change-type: major
+        change-type: major
+      author: Thodoris Greasidis
+  version: 2.0.0
+  title: ""
+  date: 2024-02-22T08:22:45.367Z
+- commits:
     - subject: Update flowzone configuration
       hash: 4102494b6fcd716a5586c290b50616b98848d73b
       body: ""
@@ -155,8 +194,8 @@
     - subject: "patch: Bump node-fetch from 2.6.1 to 2.6.7 in /main"
 - commits:
     - body: >-
-        Bumps [node-fetch](https://github.com/node-fetch/node-fetch) from 2.6.1 to
-        2.6.7.
+        Bumps [node-fetch](https://github.com/node-fetch/node-fetch) from 2.6.1
+        to 2.6.7.
 
         - [Release notes](https://github.com/node-fetch/node-fetch/releases)
 
@@ -239,7 +278,8 @@
     - subject: "patch: Bump lodash from 4.17.20 to 4.17.21 in /main"
 - commits:
     - body: >-
-        Bumps [lodash](https://github.com/lodash/lodash) from 4.17.20 to 4.17.21.
+        Bumps [lodash](https://github.com/lodash/lodash) from 4.17.20 to
+        4.17.21.
 
         - [Release notes](https://github.com/lodash/lodash/releases)
 
@@ -310,7 +350,8 @@
     - subject: "patch: Bump lodash from 4.17.15 to 4.17.19 in /main"
 - commits:
     - body: >-
-        Bumps [lodash](https://github.com/lodash/lodash) from 4.17.15 to 4.17.19.
+        Bumps [lodash](https://github.com/lodash/lodash) from 4.17.15 to
+        4.17.19.
 
         - [Release notes](https://github.com/lodash/lodash/releases)
 
@@ -395,7 +436,8 @@
     - subject: Bump js-yaml from 3.12.2 to 3.13.1 in /main
 - commits:
     - body: >-
-        Bumps [js-yaml](https://github.com/nodeca/js-yaml) from 3.12.2 to 3.13.1.
+        Bumps [js-yaml](https://github.com/nodeca/js-yaml) from 3.12.2 to
+        3.13.1.
 
         - [Release notes](https://github.com/nodeca/js-yaml/releases)
 
@@ -413,7 +455,8 @@
     - subject: Bump lodash from 4.17.11 to 4.17.15 in /main
 - commits:
     - body: >-
-        Bumps [lodash](https://github.com/lodash/lodash) from 4.17.11 to 4.17.15.
+        Bumps [lodash](https://github.com/lodash/lodash) from 4.17.11 to
+        4.17.15.
 
         - [Release notes](https://github.com/lodash/lodash/releases)
 
