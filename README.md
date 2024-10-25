@@ -4,10 +4,10 @@ This is a simple project which runs one container based on the [balena simple-se
 
 This project serves up `"Hello World!"` on port `:80` of your balena device and additionally:
 * Demonstrates how to use CURL to set tags (in the application's `start.sh`).
-  * sets the `stats.last_application_start` tag with the current timestamp when the application starts.
+  * sets the `device_tags_node.last_application_start` tag with the current timestamp when the application starts.
 * Demonstrates how to use the javascript [balena-SDK][balena-sdk] in the application's `device_tags_node/server.js`.
-  * sets the `stats.last_server_start` tag with the current timestamp whenever the node server starts.
-  * sets the `stats.last_request` tag with the current timestamp whenever the node server responds to an HTTP request.
+  * sets the `device_tags_node.last_server_start` tag with the current timestamp whenever the node server starts.
+  * sets the `device_tags_node.last_request` tag with the current timestamp whenever the node server responds to an HTTP request.
 
 ### Setup
 

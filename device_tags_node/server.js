@@ -6,11 +6,11 @@ let sdk;
 // reply to request with "Hello World!"
 app.get('/', function (req, res) {
   if (sdk) {
-    // set the 'stats.lastrequest' tag but w/o blocking the response
+    // set the 'device_tags_node.lastrequest' tag but w/o blocking the response
     sdk.models.device.tags
-      .set(process.env.BALENA_DEVICE_UUID, 'stats.last_request', new Date().toISOString())
+      .set(process.env.BALENA_DEVICE_UUID, 'device_tags_node.last_request', new Date().toISOString())
       .catch(function(e) {
-        console.error('Error while setting stats.last_request tag', e);
+        console.error('Error while setting device_tags_node.last_request tag', e);
       });
   }
   res.send('Hello World from device tags example!');
@@ -26,9 +26,9 @@ const server = app.listen(80, async function () {
   try {
     await sdk.auth.logout();
     await sdk.auth.loginWithToken(process.env.BALENA_API_KEY);
-    await sdk.models.device.tags.set(process.env.BALENA_DEVICE_UUID, 'stats.last_server_start', new Date().toISOString());
+    await sdk.models.device.tags.set(process.env.BALENA_DEVICE_UUID, 'device_tags_node.last_server_start', new Date().toISOString());
   } catch (err) {
-    console.error('Error while setting stats.last_server_start tag', err);
+    console.error('Error while setting device_tags_node.last_server_start tag', err);
   }
 
   const port = server.address().port;
