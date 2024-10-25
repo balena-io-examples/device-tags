@@ -1,7 +1,7 @@
 version: '2'
 services:
-  device_tags:
-    build: ./device_tags
+  device_tags_node:
+    build: ./device_tags_node
     labels:
       io.balena.features.balena-api: 1
     ports:
