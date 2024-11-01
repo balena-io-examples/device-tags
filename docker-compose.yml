@@ -1,8 +1,17 @@
 version: '2'
 services:
-  device_tags:
-    build: ./device_tags
+  device_tags_node:
+    build: ./device_tags_node
     labels:
       io.balena.features.balena-api: 1
     ports:
       - 80:80
+  # To use to the python version of this example repo
+  # comment the `device_tags_node`  service
+  # and uncomment the the following one
+  # device_tags_python:
+  #   build: ./device_tags_python
+  #   labels:
+  #     io.balena.features.balena-api: 1
+  #   ports:
+  #     - 80:80

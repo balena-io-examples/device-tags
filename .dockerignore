@@ -1,4 +1,5 @@
 # Don't send node_modules the daemon - we want the build server to install these.
 node_modules/
+path/
 .git
 repo.yml
