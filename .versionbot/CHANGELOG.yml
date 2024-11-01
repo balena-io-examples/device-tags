@@ -1,4 +1,36 @@
 - commits:
+    - subject: Add a device_tags_python service that uses the python balena-sdk
+      hash: ecaffd03704806052df5dd3767b55a248d4efee9
+      body: ""
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Thodoris Greasidis
+    - subject: Change the scope of the set device tags to math the service name
+      hash: 486801ec963daa517a0dbf5830aa8b058ebb3f97
+      body: ""
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Thodoris Greasidis
+    - subject: Set an ISO date string as the tag values
+      hash: fda6ad91cfb2d4a223f9f2a79d8960e1d938fd60
+      body: ""
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Thodoris Greasidis
+    - subject: Rename the device_tags service to devices_tag_node
+      hash: fa8cac519eb01edd5a0498aa9a396a5fe1c388e3
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Thodoris Greasidis
+  version: 2.1.0
+  title: ""
+  date: 2024-11-01T11:28:49.547Z
+- commits:
     - subject: Add a balena.yml file
       hash: 3c9b400b141913a4573566c941bca23483a5472d
       body: ""
@@ -67,7 +99,8 @@
 
         - [Release notes](https://github.com/moment/moment/releases)
 
-        - [Changelog](https://github.com/moment/moment/blob/develop/CHANGELOG.md)
+        -
+        [Changelog](https://github.com/moment/moment/blob/develop/CHANGELOG.md)
 
         - [Commits](https://github.com/moment/moment/compare/2.29.2...2.29.4)
 
@@ -111,9 +144,11 @@
 
         - [Release notes](https://github.com/expressjs/express/releases)
 
-        - [Changelog](https://github.com/expressjs/express/blob/master/History.md)
+        -
+        [Changelog](https://github.com/expressjs/express/blob/master/History.md)
 
-        - [Commits](https://github.com/expressjs/express/compare/4.17.1...4.18.2)
+        -
+        [Commits](https://github.com/expressjs/express/compare/4.17.1...4.18.2)
 
 
         ---
@@ -169,7 +204,8 @@
 
         - [Release notes](https://github.com/moment/moment/releases)
 
-        - [Changelog](https://github.com/moment/moment/blob/develop/CHANGELOG.md)
+        -
+        [Changelog](https://github.com/moment/moment/blob/develop/CHANGELOG.md)
 
         - [Commits](https://github.com/moment/moment/compare/2.29.1...2.29.2)
 
@@ -199,7 +235,8 @@
 
         - [Release notes](https://github.com/node-fetch/node-fetch/releases)
 
-        - [Commits](https://github.com/node-fetch/node-fetch/compare/v2.6.1...v2.6.7)
+        -
+        [Commits](https://github.com/node-fetch/node-fetch/compare/v2.6.1...v2.6.7)
 
         ---
 
@@ -441,7 +478,8 @@
 
         - [Release notes](https://github.com/nodeca/js-yaml/releases)
 
-        - [Changelog](https://github.com/nodeca/js-yaml/blob/master/CHANGELOG.md)
+        -
+        [Changelog](https://github.com/nodeca/js-yaml/blob/master/CHANGELOG.md)
 
         - [Commits](https://github.com/nodeca/js-yaml/compare/3.12.2...3.13.1)
 - commits:
