@@ -1,4 +1,32 @@
 - commits:
+    - subject: "Add repo.yml with type: generic to fix versionist version generation"
+      hash: 1015001045db0630fbe97eb246d94df305be0440
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Thodoris Greasidis
+      nested: []
+    - subject: Update the nodejs base image to v22
+      hash: 1fd5034baeadf097c7b67c5eae55161e1a305b8b
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Thodoris Greasidis
+      nested: []
+    - subject: Replace balenalib base images with the official ones
+      hash: fa96c3ba821b205494e562ea23575d0cdc2fbaf3
+      body: ""
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Thodoris Greasidis
+      nested: []
+  version: 2.2.0
+  title: ""
+  date: 2025-07-22T12:59:05.997Z
+- commits:
     - subject: Add a device_tags_python service that uses the python balena-sdk
       hash: ecaffd03704806052df5dd3767b55a248d4efee9
       body: ""
@@ -229,25 +257,15 @@
 - commits:
     - subject: "patch: Bump node-fetch from 2.6.1 to 2.6.7 in /main"
 - commits:
-    - body: >-
-        Bumps [node-fetch](https://github.com/node-fetch/node-fetch) from 2.6.1
-        to 2.6.7.
-
+    - body: |-
+        Bumps [node-fetch](https://github.com/node-fetch/node-fetch) from 2.6.1 to 2.6.7.
         - [Release notes](https://github.com/node-fetch/node-fetch/releases)
-
-        -
-        [Commits](https://github.com/node-fetch/node-fetch/compare/v2.6.1...v2.6.7)
-
+        - [Commits](https://github.com/node-fetch/node-fetch/compare/v2.6.1...v2.6.7)
         ---
-
         updated-dependencies:
-
         - dependency-name: node-fetch
-
         dependency-type: indirect
-
         ...
-
         Signed-off-by: dependabot[bot] <support@github.com>
 - version: 1.0.1
 - date: 2022-03-29T18:53:32Z
