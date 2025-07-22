@@ -1,8 +1,4 @@
-# base-image for node on any machine using a template variable,
-# see more about dockerfile templates here: http://docs.balena.io/deployment/docker-templates/
-# and about balena base images here: http://docs.balena.io/reference/base-images/base-images/
-# Note the node:slim image doesn't have node-gyp
-FROM balenalib/%%BALENA_ARCH%%-debian-node:18-bookworm
+FROM node:18-bookworm-slim
 
 # use apt-get if you need to install dependencies,
 # for instance if you need ALSA sound utils, just uncomment the lines below.
